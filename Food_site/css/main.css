@@ -1,0 +1,71 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px
+}
+
+ul li {
+    list-style: square inside
+}
+
+header > img {
+    width: 100px;
+}
+
+ul li > a {
+    text-decoration: none;
+}
+
+html {
+    background-color: ghostwhite;
+}
+
+
+input, select {
+  cursor: pointer;
+  outline: none;
+}
+
+input:last-child:hover {
+    background-color: gold;
+}
+
+input:last-child:hover {
+    background-color: black
+}
+
+ol li:nth-child(odd){
+    background-color: lightgrey;
+}
+
+#reviews + .user_review {
+  border: 1px, solid, black, top;
+}
+
+input[type=radio]:checked{
+    background-color: blue;
+}
+
+input[type=radio]{
+    -webkit-appearance: none;
+}
+
+
+
+
+
+
+
+
+
+

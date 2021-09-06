@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reggie's Smashburgers</title>
+    <link rel="stylesheet" href="https://assets.aaonline.io/fullstack/html-css/assets/css_reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<header>
+<!--img of app academy logo-->
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Appacademylogo.png" alt="logo">
+
+<!--nav bar with ul links-->
+<nav>
+    <ul>
+        <li>
+            <a href="#">Desription</a>
+        </li>
+        <li>
+            <a href="#">Ingredients</a>
+        </li>
+        <li>
+            <a href="#">Directions</a>
+        </li>
+    </ul>
+ </nav>
+</header>
+
+<!--aside for ingredients-->
+<aside>
+    <h2>Ingredients</h2>
+
+    <ul class="ingredients-list">
+        <li>1/4 cup mayonnaise</li>
+        <li> 12 dill pickle chips, plus 1 teaspoon brine</li>
+        <li> 1/8 teaspoon garlic powder</li>
+        <li>Pinch of smoked paprika </li>
+        <li>Kosher salt and freshly ground pepper </li>
+        <li> 1 1/4 pounds ground beef (80 percent lean)</li>
+        <li> Unsalted butter, softened, for brushing</li>
+        <li> 4 slices American cheese</li>
+        <li>4 slices American cheese </li>
+        <li>4 thin slices red onion </li>
+        <li> 4 lettuce leaves</li>
+    </ul>
+</aside>
+
+<section>
+
+
+<figure>
+    <h1>Smashburger-Style Burgers</h1>
+    <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/5/10/0/FNM_060117-Smashburger-Style-Burgers-Recipe_s4x3.jpg.rend.hgtvcom.686.515.suffix/1494459418304.jpeg"
+        alt="">
+</figure>
+
+
+    
+<!-- list of sections  -->
+   <!--  <ul>
+        <li>
+            <a href="#">Desription</a>
+        </li>
+        <li>
+            <a href="#">Ingredients</a>
+        </li>
+        <li>
+            <a href="#">Directions</a>
+        </li>
+    </ul> -->
+
+<!-- description section  -->
+<h2>Description</h2>
+What is a Smash Burger?
+Ron Swanson from Parks and Rec says it best: “It's a hamburger made out of meat, on a bun, with nothing. Add ketchup if
+you want, I couldn't care less.” You need to buy 80% ground beef. That's 20% FAT, my friends.
+<!-- paragraph to describe recipe  -->
+<p>
+    Today we are going to make a burger that has been smashed.
+</p>
+
+<!-- link to a wikipedia page about recipe  -->
+<a href="https://en.wikipedia.org/wiki/Smashburger">link to smashburger resturant</a>
+
+<!-- img of the dish  -->
+<!-- <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/5/10/0/FNM_060117-Smashburger-Style-Burgers-Recipe_s4x3.jpg.rend.hgtvcom.686.515.suffix/1494459418304.jpeg" alt=""> -->
+
+<!-- ingredients section  -->
+<!-- <h2>Ingredients</h2> -->
+
+<!-- list of recipe ingredients  -->
+<!-- <ul>
+    <li>1/4 cup mayonnaise</li>
+    <li> 12 dill pickle chips, plus 1 teaspoon brine</li>
+    <li> 1/8 teaspoon garlic powder</li>
+    <li>Pinch of smoked paprika </li>
+    <li>Kosher salt and freshly ground pepper </li>
+    <li> 1 1/4 pounds ground beef (80 percent lean)</li>
+    <li> Unsalted butter, softened, for brushing</li>
+    <li> 4 slices American cheese</li>
+    <li>4 slices American cheese </li>
+    <li>4 thin slices red onion </li>
+    <li> 4 lettuce leaves</li>
+</ul> -->
+
+<!--Driections section-->
+<h2>Directions</h2>
+
+<!-- orderd list of cooking directions  -->
+<ol>
+    <li>Heat a griddle or large cast-iron skillet over medium heat for at least 10 minutes. Meanwhile, combine the mayonnaise,
+    mustard and pickle brine in a small bowl. Combine the onion powder, garlic powder, paprika, 1/2 teaspoon salt and 1/4
+    teaspoon pepper in a separate small bowl. Set aside.</li>
+    <li>Loosely form the beef into 4 balls; set aside. Working in batches, lightly brush the griddle with butter and toast the
+    buns cut-side down until lightly browned, 1 to 2 minutes. Transfer to a plate.</li>
+    <li>Brush the griddle with more butter and add 1 ball of beef. Press firmly with 2 large crisscrossed metal spatulas for
+    exactly 10 seconds, then gently remove the spatulas. Sprinkle the patties with some of the seasoning mixture and
+    continue cooking, undisturbed, until well browned, 1 1/2to 2 minutes. (Start cooking another burger at this point.) Flip
+    the patty, sprinkle with more of the seasoning mixture and top with 1 cheese slice. Continue cooking until the cheese is
+    melted around the edges and the bottom of the burger is browned, about 1 more minute. Repeat with the remaining beef.</li>
+    <li>Spread the mayonnaise mixture on the bun tops and add some ketchup. Serve the patties on the buns with the pickles,
+    tomato, red onion and lettuce.</li>
+</ol>
+</section>
+
+<section id="reviews">
+  <form id="review-form" action="/reviews" method="post">
+      <label for="user"> user </label>
+          <input type="text" id="user" name="name">
+      
+
+      <label  for="rating">Rating</label>
+        1<input type="radio" name="rating" value="b1" checked>
+        🔅
+        2<input type="radio" name="rating" value="b2">
+        🔅
+        3<input type="radio" name="rating" value="b3">
+        🔅
+        4<input type="radio" name="rating" value="b4">
+        🔅
+        5<input type="radio" name="rating" value="b5">
+        🔅
+      
+        <label for="Cooking Expertise"></label>
+        <select id="expertise">
+            <option value="opt1" disabled selected>Select Cooking Expertise </option>
+            <option value="opt2">Sometimes Cook</option>
+            <option value="opt3">Cook Everyday</option>
+            <option value="opt4">Cooking is a Hobby</option>
+            <option value="opt5">Professional Chef</option>
+        </select>
+          <br>
+        <label for="#">
+            <textarea name="" id="" cols="30" rows="10">type review</textarea>
+        </label>
+
+        <input class="submit" type="submit" value="Submit Review">
+  </form>
+</section>
+
+
+
+<footer>
+    <p>This recipe was made by Food Network Magazine</p>
+</footer>
+<!-- This recipe was made by Food Network Magazine-->
+
+<!-- Google Analytics -->
+ <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!--app script-->
+<script src="src/js_example.js"></script>
+</body>
+</html>
